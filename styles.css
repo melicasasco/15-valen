@@ -400,6 +400,10 @@ span:nth-child(7) {
     text-align: center!important;
   }
 
+  .home{
+    padding-bottom: 10rem;
+  }
+
   .homeContent {
     display: flex;
     flex-direction: column;

@@ -64,7 +64,7 @@ body{
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
-   background: linear-gradient(220.55deg, #01109c 0%, #0073fa 100%);;
+   background: linear-gradient(220.55deg, #01109c 0%, #0073fa 100%);
 }
 h1,h2,p{
   margin: 0;
@@ -295,6 +295,10 @@ span:nth-child(7) {
   background-color: var(--first-color);
 }
 
+.cake {
+  display: none;
+}
+
 /*=== Show menu ===*/
 .show{
   right: 0;
@@ -401,7 +405,7 @@ span:nth-child(7) {
   }
 
   .home{
-    padding-bottom: 10rem;
+    padding-bottom: 1rem;
   }
 
   .homeContent {
@@ -412,6 +416,10 @@ span:nth-child(7) {
   }
   .home__img {
     width: 60vw!important;
+  }
+
+  .cake {
+    display: block;
   }
 
 }

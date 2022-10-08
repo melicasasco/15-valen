@@ -306,7 +306,7 @@ span:nth-child(7) {
 
 /*===== HOME =====*/
 .home{
-  height: calc(90vh);
+  height: 85vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
